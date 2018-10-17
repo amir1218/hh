@@ -1,0 +1,14 @@
+.env*
+log
+reports
+node_modules
+.bund*
+.idea*
+*.log
+tmp
+tmp/*
+playground_spec.rb
+*.stackdump
+.DS_Store
+.ruby-version
+.vscode/*
