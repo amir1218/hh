@@ -33,6 +33,7 @@ class Logger
 end
 
 require_all Pathname.new(File.dirname(__dir__)).join('config/**/*.rb')
+require_all Pathname.new(File.dirname(__dir__)).join('spec/poms/**/*.rb')
 
 Dotenv.overload('.env')
 Capybara.app_host = ENV['BASE_URL']
